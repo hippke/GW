@@ -9,3 +9,5 @@ window = np.blackman(NFFT)
 plt.subplot(325)
 spec_power, freqs, bins, im = plt.specgram(strain_seg, NFFT=NFFT, Fs=fs, 
                                     window=window)
+
+Noise lines paper: https://ui.adsabs.harvard.edu/abs/2018PhRvD..97h2002C/abstract
